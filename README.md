@@ -6,11 +6,11 @@ Install:
 Unzip the files to a directory:
 
 > 1. For Windows
-> - C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
+> > C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
 > 2. For Linux
-> - /home/UserName /.config/blender/4.3/scripts/startup/
+> > /home/UserName /.config/blender/4.3/scripts/startup/
 > 3. For Mac
-> - /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
+> > /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
 
 Note: Tested on Windows and Blender version 4.3
 
