@@ -1,6 +1,6 @@
 Install:
-    Python version 3.12.3 
-    PyTorch versopn 2.5.1
+    - Python version 3.12.3 
+    - PyTorch versopn 2.5.1
 
 Unzip the files to a directory:
   For Windows
