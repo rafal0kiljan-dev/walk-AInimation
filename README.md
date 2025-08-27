@@ -2,17 +2,17 @@ Install:
 
 > - Python version 3.12.3 
 > - PyTorch versopn 2.5.1
-> - 
+
 Unzip the files to a directory:
 
 > - For Windows
-> C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
+> - C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
 > - For Linux
-> /home/UserName /.config/blender/4.3/scripts/startup/
+> - /home/UserName /.config/blender/4.3/scripts/startup/
 > - For Mac
-> /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
+> - /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
 
-> Note: Tested on Windows and Blender version 4.3
+Note: Tested on Windows and Blender version 4.3
 
 > Find AI menu
 <img width="854" height="604" alt="obraz" src="https://github.com/user-attachments/assets/4ab9e8f6-0298-478a-b23b-926d5a1a2695" />
