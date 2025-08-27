@@ -1,9 +1,9 @@
-Install:
+#### Install:
 
 > - Python version 3.12.3 
 > - PyTorch version 2.5.1
 
-Unzip the files to a directory:
+#### Unzip the files to a directory:
 
 > 1. For Windows
 > > C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
@@ -12,14 +12,14 @@ Unzip the files to a directory:
 > 3. For Mac
 > > /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
 
-Note: Tested on Windows and Blender version 4.3
+#### Note: Tested on Windows and Blender version 4.3
 
 > 
 
-Find AI menu
+#### Find AI menu
 > <img width="854" height="604" alt="obraz" src="https://github.com/user-attachments/assets/4ab9e8f6-0298-478a-b23b-926d5a1a2695" />
 
-Some example:
+#### Some example:
 
 > ![Nagrywaj_2025_06_23_22_07_24_820(1)](https://github.com/user-attachments/assets/f114e802-9115-4782-be77-5bd10dc4042a)
 
