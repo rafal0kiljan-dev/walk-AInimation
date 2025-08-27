@@ -1,9 +1,6 @@
 Install:
-
 > - Python version 3.12.3 
-    
 > - PyTorch versopn 2.5.1
-
 Unzip the files to a directory:
 > - For Windows
 > C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
