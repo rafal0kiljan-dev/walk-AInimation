@@ -25,3 +25,5 @@
 
 > ![Nagrywaj_2025_06_23_22_21_46_368](https://github.com/user-attachments/assets/ceb01f9b-7c3b-4910-8952-b4a5f6a167cc)
 
+
+  
