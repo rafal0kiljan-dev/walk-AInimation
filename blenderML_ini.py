@@ -108,7 +108,6 @@ class WM_OT_HelloWorld(Operator):
     def execute(self, context):
         scene = context.scene
         mytool = scene.my_tool
-        #dirname = os.path.dirname(__file__)
         print('DIR '+ dirname)
         set_choose = False
         set_train = False
@@ -140,8 +139,6 @@ class WM_OT_HelloWorld(Operator):
         ppath1 = os.path.normpath(os.path.join(dirname, set_path))
         ppath = ppath1[2:]
         print("W - "+dirname+ppath)
-        #cut_lenght = len(bpy.path.display_name_from_filepath(dirname)) + 6
-        #print(cut_lenght)
         my_setting = configparser.ConfigParser()
         my_setting['SETTING'] = {'choosing': set_choose,
         ';choosing': set_choose,
@@ -155,7 +152,6 @@ class WM_OT_HelloWorld(Operator):
         ';device': set_device,
         'name_model' : set_name,
         ';name_model' : set_name,
-        #'path_model' : dirname+set_path
         'path_model' : ppath}
         
         conf_path = dirname+'\conf.ini'.format(os.getlogin())
@@ -169,16 +165,13 @@ class WM_OT_HelloWorld(Operator):
             print('/Users/'+str(os.getlogin())+'/Library/Application Support/Blender/4.30/scripts/startup/glue.zsh')
         elif platform == 'win32' or platform == 'win64':
             print("C:\\Users\\"+str(os.getlogin())+r"\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\startup\\glue.bat")
-            #os.system(str("C:\\Users\\"+str(os.getlogin())+r"\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\startup\\glue.bat"))
-            #os.system('"' + "C:\\Users\\" + str(os.getlogin()) + r"\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\startup\\glue.bat" + '"')
             version_tuple = bpy.app.version
             version_str = f"{version_tuple[0]}.{version_tuple[1]}"
             script_path = Path.home() / "AppData" / "Roaming" / "Blender Foundation" / "Blender" / version_str / "scripts" / "startup" / "glue.bat"
             subprocess.run([str(script_path)], shell=True)
             
         if set_choose == True or set_generate == True:     
-            for i in range(90000): #90000 ms = 15 min
-                #resu_path = dirname+'\\results.json'
+            for i in range(90000): 
                 with open('results.json') as results_json:
                     results = json.load(results_json) 
                 if results['angles'] == [0]:
@@ -219,11 +212,6 @@ class WM_OT_HelloWorld(Operator):
                         str_ = json.dumps(clearjson)
                         outfile.write(to_unicode(str_))
                     break
-        # print the values to the console
-        #print("int value:", mytool.my_int)
-        #print("name file:", mytool.my_name)
-        #print("option selection:", mytool.my_op)
-
         return {'FINISHED'}
 
 class OBJECT_PT_CustomPanel(Panel):
@@ -277,4 +265,5 @@ def unregister():
 
 
 if __name__ == "__main__":
+
     register()
