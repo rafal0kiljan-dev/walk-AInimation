@@ -6,15 +6,15 @@
 
 > [!NOTE]
 > # Unzip the files to a directory:
-> 1. For Windows
-> > C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
-> 2. For Linux
-> > /home/UserName /.config/blender/4.3/scripts/startup/
-> 3. For Mac
-> > /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
+> 1. Windows
+> - C:\Users\UserName\AppData\Roaming\Blender Foundation\Blender\4.3\scripts\startup\
+> 2. Linux
+> - /home/UserName /.config/blender/4.3/scripts/startup/
+> 3. Mac
+> - /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
 
 > [!WARNING]
-> # Tested on Windows and Blender version 4.3
+> Tested on Windows and Blender version 4.3
 
 #### Find AI menu
 > <img width="854" height="604" alt="obraz" src="https://github.com/user-attachments/assets/4ab9e8f6-0298-478a-b23b-926d5a1a2695" />
