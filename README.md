@@ -17,6 +17,8 @@
 > - [x] loading .pth file
 > - [x] generate move
 > - [x] create new .pth (train)
+> - [x] tools for automating machine learning training, mainly generating and testing training data (Windows only)
+> - [ ] tools for automating machine learning training (Linux and Mac)
 > - [ ] useful for many models
 
 > [!WARNING]
