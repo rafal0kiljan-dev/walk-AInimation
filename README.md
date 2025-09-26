@@ -18,11 +18,11 @@
 > - [x] generate move
 > - [x] create new .pth (train)
 > - [x] tools for automating machine learning training, mainly generating and testing training data (Windows only)
-> - [ ] tools for automating machine learning training (Linux and Mac)
-> - [ ] useful for many models
+> - [ ] 🚧 ⚠️ tools for automating machine learning training (Linux and Mac) ⚠️ 🚧
+> - [ ] 🚧 ⚠️ useful for many models ⚠️ 🚧
 
 > [!WARNING]
-> Tested on Windows and Blender version 4.3
+> ⛔ 🚨 Tested on Windows and Blender version 4.3  🚨 ⛔
 
 # Find AI menu
 <img width="854" height="604" alt="obraz" src="https://github.com/user-attachments/assets/4ab9e8f6-0298-478a-b23b-926d5a1a2695" />
