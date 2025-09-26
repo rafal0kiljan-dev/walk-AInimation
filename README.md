@@ -12,6 +12,11 @@
 > - /home/UserName /.config/blender/4.3/scripts/startup/
 > 3. Mac
 > - /Users/ UserName /Library/Application Support/Blender/4.3/scripts/startup/
+> # To Do
+> - [x] loading .pth file
+> - [x] generate move
+> - [x] create new .pth (train)
+> - [ ] useful for many models
 
 > [!WARNING]
 > Tested on Windows and Blender version 4.3
