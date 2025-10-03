@@ -306,9 +306,7 @@ def generate():
     ind = 0
     objects1 = []
     while ind < 300:
-        #print("ID - "+str(ind/4))
         phase = (1.45 + ind/1000) * math.pi
-        #print(phase/math.pi)
         ampA = 60
         ampB = 15
         for j in range(5):
@@ -363,4 +361,5 @@ if conf['SETTING']['training'] == 'True':
     train_data()
 if conf['SETTING']['generating'] == 'True':
     generate()
+
 pass
