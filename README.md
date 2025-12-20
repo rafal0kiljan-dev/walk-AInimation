@@ -6,6 +6,8 @@
 > - PyTorch version 2.5
 > - Blender version 4.3
 
+
+
 > [!NOTE]
 > # Unzip the files to a directory:
 > 1. Windows
