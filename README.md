@@ -1,5 +1,7 @@
 > # Blender plugin for creating walking animations using machine learning 🤖 🦿⚙️🦿
 
+
+
 > [!IMPORTANT]
 > # Install:
 > - Python version 3.12.3
