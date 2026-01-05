@@ -323,7 +323,7 @@ def generate():
             with io.open('results.json', 'w', encoding='utf8') as outfile:
                 str_ = json.dumps(rdata)
                 outfile.write(to_unicode(str_))
-            #num = num + 1
+            
             print(rdata)
             break
         num = num + 1
@@ -356,5 +356,6 @@ if conf['SETTING']['generating'] == 'True':
     generate()
 
 pass
+
 
 
