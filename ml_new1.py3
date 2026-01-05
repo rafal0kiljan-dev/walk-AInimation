@@ -34,14 +34,7 @@ if my_device == 'cuda' and torch.cuda.is_available() == False:
     my_device = 'cpu'
 print(conf['SETTING']['path_model'])
 
-"""
-dirname = os.path.dirname(__file__)
-path_to_test = dirname + '\\test\\'
-path_to_model = conf['path_model']
-name_new_model = dirname + '\\models\\' + conf['name_model']
-input_size = conf['segments'] * 5  # ponieważ mamy 5 tablic po 5 elementów
-my_device = conf['device']
-"""
+
 hidden_size = 64    
 output_size = 1     
 learning_rate = 0.000001
@@ -363,4 +356,5 @@ if conf['SETTING']['generating'] == 'True':
     generate()
 
 pass
+
 
