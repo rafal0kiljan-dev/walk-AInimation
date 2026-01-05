@@ -340,7 +340,7 @@ def generate():
         for obj in objects1:
             print(obj.data)
             wynik = ocena_danych_1(model, obj, 0.54) and ocena_danych_1(model_watchman, obj, 0.4)
-            #wynik = True
+            
             if wynik == True and num !=0:
                 rdata = {'angles': obj.data[0],
                 'axises' : obj.data[1],
@@ -351,7 +351,7 @@ def generate():
                 with io.open('results.json', 'w', encoding='utf8') as outfile:
                     str_ = json.dumps(rdata)
                     outfile.write(to_unicode(str_))
-                #num = num + 1
+                
                 print(rdata)
                 break
             num = num + 1
@@ -363,3 +363,4 @@ if conf['SETTING']['generating'] == 'True':
     generate()
 
 pass
+
