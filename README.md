@@ -1,4 +1,4 @@
-> # Blender plugin for creating walking animations using machine learning 🤖 🦿⚙️🦿
+# Blender plugin for creating walking animations using machine learning 🤖 🦿⚙️🦿
 
 > [!IMPORTANT]
 > # Install:
