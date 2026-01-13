@@ -112,7 +112,7 @@ def create_move(phase, ampA, ampB):
     frameEndArr = []
     axisArr = [50,50,50,50,50]
     i =0
-    #print(angleArr)
+    
     for a in angleArr:
         beg = frameBeginArr[i]
         if abs(a) <= 10:
@@ -356,6 +356,7 @@ if conf['SETTING']['generating'] == 'True':
     generate()
 
 pass
+
 
 
 
