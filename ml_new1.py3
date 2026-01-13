@@ -85,7 +85,7 @@ def create_obj(namefile):
     if axisArr[i] == 'Y' or axisArr[i] == 'y':
       numberAxis.append(-30)
   i = 0
-  #inputs = []
+  
   data = []
   data.append(angleArr)
   data.append(numberAxis)
@@ -354,6 +354,7 @@ if conf['SETTING']['generating'] == 'True':
     generate()
 
 pass
+
 
 
 
