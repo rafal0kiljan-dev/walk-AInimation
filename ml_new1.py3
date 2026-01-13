@@ -93,8 +93,6 @@ def create_obj(namefile):
   data.append(boneArr)
   data.append(frameEndArr)
   n1 = Obj(data, quality)
-  #objects.append(n1)
-  #del data
   return n1
 
 
@@ -356,6 +354,7 @@ if conf['SETTING']['generating'] == 'True':
     generate()
 
 pass
+
 
 
 
